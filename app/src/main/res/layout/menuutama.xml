@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="232dp">
+
+        <ImageView
+            android:id="@+id/ivRS"
+            android:layout_width="0dp"
+            android:layout_height="323dp"
+            android:layout_weight="1"
+            android:onClick="clickRS"
+            app:srcCompat="@drawable/rs1"
+            tools:ignore="UsingOnClickInXml,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/ivPolisi"
+            android:layout_width="5dp"
+            android:layout_height="338dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pc" />
+    </TableRow>
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ivMarket"
+            android:layout_width="0dp"
+            android:layout_height="292dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mk1" />
+
+        <ImageView
+            android:id="@+id/iSchool"
+            android:layout_width="5dp"
+            android:layout_height="310dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sd" />
+
+
+
+
+    </TableRow>
+</LinearLayout>
